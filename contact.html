@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="SECTIONCSS/header.css">
+        <link rel="stylesheet" href="SECTIONCSS/about.css">
+        <link rel="stylesheet" href="SECTIONCSS/service.css">
+        <link rel="stylesheet" href="SECTIONCSS/index.css">
+        <link rel="stylesheet" href="SECTIONCSS/testimonies.css">
+        <link rel="stylesheet" href="SECTIONCSS/contact.css">
+    </head>
+    <body>
+      <a href="https://wa.me/255742302935" class="whatsapp-CTA" target="_blank">
+        <img src="image/whatsapp.png" alt="whatsapp-icon" width="65px" height="65px">
+      </a>
+
+      <!--Header section-->
+      <header>
+        <div class="Top-bar">
+          <!--Top Bar Info-->
+          <div class="Top-bar-info">
+            <p class="contact-info">&#9742; +255 789 423 889 / +255 783 971 919 <span>&#9993;</span> info@luckconstruction.co.tz</p>
+            <p class="tagline">Professional Construction Services in Tanzania</p>
+          </div>
+
+          <!--logo + Navigation bar-->
+          <div class="Top-navigation-bar">
+            <!--laki logo-->
+            <div class="laki-logo">
+            <a class="L-logo" href="index.html">
+                <button>L</button>
+            </a>
+            <div class="logo-info">
+                <p class="logo-name">Laki Construction</p>
+                <p class="logo-name-2">Building Tanzania's Future</p>
+            </div>
+            </div>
+
+            <!--ToggleMenu-->
+            <button class="Toggle-menu" id="ToggleMenu">&#9776;</button>
+
+            <!--Navigation bar-->
+            <nav class="navigation-bar">
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="service.html">Services</a>
+                <a href="projects.html">Projects</a>
+                <a href="testimonies.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <!--ToggleMenu SideBar link-->
+      <aside>
+        <nav class="Toggle-SideBar-nav">
+          <button class="close-button" id="closeBtn">&times;</button>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="service.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="testimonies.html">Testimonials</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </aside>
+
+      <main>
+        <!--Hero Service section-->
+        <section class="hero-content">
+          <div class="hero-about-Content"  data-aos="fade-up-down" data-aos-duration="1700" data-aos-easing="ease-in-out">
+            <p class="hero-about-tagline">Contact Us</p>
+            <h1 class="hero-about-title">Get In Touch</h1>
+            <h2 class="hero-about-subtitle">With Our Team</h2>
+            <p class="hero-about-description">
+              Ready to start your construction project? Our expert team is here to help bring your vision to life.
+              Contact us today for 
+              a free consultation and quote.
+            </p>
+          </div>
+        </section>
+
+        <section class="company-contact">
+          <div class="company-contact-card">
+           <i class="fa fa-phone"></i>
+           <h1>Phone Number</h1>
+           <h2>+255 642 302 935</h2>
+           <h2>+255 642 302 935</h2>
+           <P>Available 24/7 for emergency consultations</P>
+          </div>
+
+          <div class="company-contact-card">
+           <i class="fa fa-envelope"></i>
+           <h1>Email Address</h1>
+           <h2> info@luckconstruction.co.tz</h2>
+           <P>We respond within 2 hours during business hours</P>
+          </div>
+
+          <div class="company-contact-card">
+           <i class="fa fa-map-marker"></i>
+           <h1>Office Location</h1>
+           <h2>123 Construction Street</h2>
+           <h2>Dar es Salaam, Tanzania</h2>
+           <P>Visit us for in-person consultations</P>
+          </div>
+
+          <div class="company-contact-card">
+           <i class="fa-regular fa-clock"></i> 
+           <h1>Business Hours</h1>
+           <h2>Monday - Friday: 8:00 AM - 6:00 PM</h2>
+           <h2>Saturday: 9:00 AM - 4:00 PM</h2>
+           <P>Sunday: Emergency calls only</P>
+          </div>
+        </section>
+
+        <div class="contact-section">
+          <form class="contact-form" action="https://formspree.io/f/xwpqzqqj" method="POST">
+            <h1 class="form-title"><i class="fa-regular fa-comment"></i>Send Us a Message</h1>
+            <p class="form-description">Fill out the form below and we'll get back to you as soon as possible.</p>
+
+            <label for="fullName">Full Name *</label><br>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter Full name" required><br>
+
+            <label for="email">Email Address *</label><br>
+            <input type="text" id="email" name="email" placeholder="Enter Yoyur Email" required><br>
+
+            <label for="phoneNumber">Phone Number *</label><br>
+            <input type="text" id="phoneNumber" name="nmber" placeholder="+255" required><br>
+
+            <label for="subject">Subject *</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Project inquiry, quote equest, etc" required><br>
+
+            <label for="message">Message *</label><br>
+            <textarea id="nessage" name="message" placeholder="Tell us about your project requirements, timelline, budget and any specific needs..." required></textarea><br>
+
+            <button type="submit">Send Message  <i class="fa-regular fa-paper-plane"></i></button> 
+          </form>
+
+          <div class="googleMap">
+            <i class="fa fa-map-marker"></i>
+            <h1>Our Location</h1>
+            <p>123 construction street</p>
+            <p>Arusha, Tanzania</p>
+            <a  href="https://www.google.com/maps/dir/?api=1&destination=-6.849639,39.260778" target="_blank" class="direction-btn">
+              Get Directions
+            </a>
+          </div>
+        </div>
+
+        <!--call to action section-->
+        <section class="cta-section">
+          <div class="cta-content">
+            <p class="cta-title">Ready to Start Building?</p>
+            <p class="cta-subtitle">
+              Ready to become our next success story? Contact us today and 
+              let's start building your dream project together.
+            </p>
+            <button class="cta-button">Call Now; +255 742 302 935</button>
+          </div>
+        </section>
+      </main>
+
+      
+      <!--Footer Section-->
+      <footer class="main-footer-section">
+        <div class="footer-section">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <a class="footer-L-logo" href="index.html">
+                <button>L</button>
+              </a>
+              <div class="footer-logo-info">
+                <p class="footer-logo-name">Laki Construction</p>
+                <p class="footer-logo-name-2">Building Tanzania's Future</p>
+              </div>
+            </div>
+            <h3 class="footer-logo-description">
+              Leading construction company in Tanzania, delivering 
+              quality building solutions for residential, commercial, 
+              and infrastructure projects since 2010.
+            </h3>
+          </div>
+
+          <!--Footer navigation link-->
+          <div class="footer-navigation-link">
+            <h1>LINKS</h1>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="testimonies.html">Testimonials</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <!--Footer contact info-->
+          <div class="footer-contact-Info">
+            <h1>CONTACT</h1>
+            <ul>
+              <li><i class="fas fa-phone"></i>+255 789 423 889/+255 783 971 919</li>
+              <Li><i class="fas fa-envelope"></i>info@luckconstruction.co.tz</Li>
+              <li>
+                <div class="last-contact-info">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>
+                    Managing Director 
+                    P.o.Box 11114, 
+                    Plot No. 237, Block “DD” 
+                    Mianzini – Arusha CBD 
+                    Arusha – Tanzania.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!--Footer social media-->
+          <div class="footer-social-Media-Icon">
+            <h1>GET IN TOUCH</h1>
+            <!-- Facebook -->
+            <i class="fab fa-facebook-f"></i>
+
+            <!-- Instagram -->
+            <i class="fab fa-instagram"></i>
+
+            <!-- Twitter (Now X) -->
+            <i class="fab fa-x-twitter"></i>
+
+            <!-- LinkedIn -->
+            <i class="fab fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <!--Copywrite section-->
+        <div class="footer-copyright">
+          <hr>
+          <p class="copyright">
+          &copy; 2025 Luck Construction. All rights reserved. 
+          Built with quality and trust.
+          </p>
+          <p class="Developed-by-name">Developed by: MatemboTech &copy; 2025 </p>
+        </div>
+      </footer>
+      </main>
+
+        
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="JS/swiper.js"></script>
+       
+     <!--AOS library-->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+      <script src="CompanyProjects/testimonies.js"></script>
+      <script>
+         AOS.init();
+       document.getElementById("ToggleMenu").addEventListener('click', () => {
+         document.querySelector(".Toggle-SideBar-nav").style.transform = "translateY(0)";
+       });
+
+       document.getElementById("closeBtn").addEventListener('click', () => {
+         document.querySelector(".Toggle-SideBar-nav").style.transform = "translateY(-200%)";
+       });
+      </script>
+    </body>
+</html>
+
+

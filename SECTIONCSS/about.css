@@ -1,0 +1,536 @@
+.hero-about-Content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  background-color: rgb(247, 245, 245);
+  padding-bottom: 2rem;
+}
+
+.hero-about-tagline {
+  text-align: center;
+  background-color: white;
+  width: 60%;
+  font-size: 0.6rem;
+  font-weight: 900;
+  padding: 2px 10px 2px 10px;
+  border-radius: 10px;
+  opacity: 0.6;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.hero-about-title {
+ font-size: 1.3rem;
+ font-family: 'Montserrat', sans-serif;
+ margin-bottom: 0;
+}
+
+.hero-about-subtitle {
+  font-size: 1.3rem;
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: hsl(23.95deg 95% 52.94%);
+  font-weight: 800;
+}
+
+.hero-about-description {
+  font-size: 0.899rem;
+  color: rgb(139, 127, 127);
+  text-align: center;
+  width: 95%;
+  line-height: 1.4;
+}
+
+/*About company*/
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 1.5rem;
+}
+
+.about-intro {
+  margin-left: 1rem;
+}
+
+.about-title {
+  font-size: 1.3rem;
+  font-family: 'Monteserrat', sans-serif;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.about-description {
+  font-size: 0.899rem;
+  color: rgb(139, 127, 127);
+  line-height: 1.4;
+  width: 98%;
+}
+
+.about-our-company {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  row-gap: 20px;
+  width: 80%;
+  background-color: white;
+}
+
+.about-company-card {
+  width: 100%;
+  height: 80%;
+
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+
+  background-color: hsl(23.95deg 95% 52.94%);
+  box-shadow: 2px 2px 10px 2px rgb(226, 220, 220);
+  margin-bottom: 1.5rem;
+}
+
+.about-company-title {
+  font-size: 1.7rem;
+  margin-bottom: 0;
+  font-weight: 900;
+  color: white;
+}
+
+.about-company-text {
+  margin-top: 0;
+  color: white;
+  font-size: 0.937rem;
+  font-weight: 200;
+}
+
+/*Company mission*/
+.company-slogans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  background-color: rgb(247, 245, 245);
+  margin-top: 3rem;
+}
+
+.company-slogans h1  {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: 'Montserrat', sans-serif;   
+} 
+
+.mission {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  row-gap: 2rem;
+}
+
+.missionDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 80%;
+  border: 1px solid rgb(233, 227, 227);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px rgb(226, 220, 220);
+}
+
+.missionDetails i {
+  color: hsl(23.95deg 95% 52.94%);
+  align-items: center;
+  font-size: 25px;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.missionDetails h2 {
+  font-size: 1rem;
+  font-family: 'Monteserrat', sans-serif;
+  margin-bottom: 0;  
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.missionDetails p {
+  font-size: 12px;
+  color: rgb(143, 136, 136);
+  text-align: center;
+  width: 95%;
+  line-height: 1.5;
+
+}
+
+/* Meet Our Leader*/
+.Team-content-tagline {
+  background-color: rgb(240, 236, 236);
+  width: 15%;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  padding-left: 1rem;
+  border-radius: 10px;
+  opacity: 0.6;
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.Team-content-title {
+  font-size: 1.3rem;
+  font-family: 'Monteserrat', sans-serif;
+  margin-left: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.Team-content-description {
+  margin-top: 0.8rem;
+  text-align: center;
+  font-size: 0.899rem;
+  color: rgb(143, 136, 136);
+  line-height: 1.4;
+  width: 95%;
+  margin-left: 1rem;
+}
+
+.ourTeam {
+  width: 100%;
+  max-width: 300px;
+  height: 68vh;
+  place-items: center;
+  
+}
+
+.TeamDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 320px;
+  width: 100%;
+  height: 60vh;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgb(230, 223, 223);
+ 
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 10px 2px rgb(226, 220, 220);
+}
+
+.swiper.ourTeam {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.TeamDetails img {
+  min-width: 40%;
+  min-height: 40%;
+  border-radius: 10px;
+  border: 1px solid rgb(194, 184, 184);
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.TeamDetails p:nth-child(2) {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 00.4rem;
+}
+
+.TeamDetails p:nth-child(3) {
+  font-size: 0.937rem;
+  color: hsl(23.95deg 95% 52.94%);
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0.2rem;
+}
+
+.TeamDetails p:nth-child(4) {
+  font-size: 0.837rem;
+  margin-bottom: 0;
+}
+
+.TeamDetails p:nth-child(5) {
+  font-size: 0.737rem; 
+  margin-bottom: 0;
+}
+
+.TeamDetails p:nth-child(6) {
+  font-size: 0.737rem; 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsl(23.95deg 95% 52.94%);
+}
+
+/*certificates section*/
+.certificates {
+  background-color: rgb(247, 245, 245);
+  padding-bottom: 3rem;
+}
+
+.certificateContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  
+}
+
+.certificateContent p:nth-child(1) {
+ text-align: center;
+ font-size: 7px;
+ background-color:rgb(243, 240, 240);
+ padding-left: 10px;
+ padding-right: 10px;
+ border-radius: 10px;
+ padding-bottom: 2px;
+ padding-top: 2px;
+ margin-bottom: 0;
+ margin-top: 20px;
+ width: 10%;
+ margin-top: 50px;
+}
+
+.certificateContent h1  {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;   
+} 
+
+.certificate-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 20px;
+}
+
+.certificate-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.certificate-card img {
+  max-width: 80%;
+  border-radius: 6px;
+}
+
+.certificates-button {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px 10px 20px;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+}
+
+/* background sliding effect */
+.certificates-button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  background-color: hsl(23.95deg 95% 52.94%);
+  z-index: -1;
+  transition: width 1s ease;
+}
+
+.certificates-button:hover {
+  color: white;
+  border-color: white;
+  
+}
+
+.certificates-button:hover::before {
+  width: 100%;
+  
+}
+
+
+
+/*Responsive Design*/
+@media (min-width: 480px) { 
+  .hero-about-tagline {
+    width: 40%;
+  }
+
+  .hero-about-title, .hero-about-subtitle, .about-title,
+  .company-slogans h1, .Team-content-title, .certificateContent h1  {
+    font-size: 1.7rem;
+  }
+
+  .hero-about-description, .missionDetails p {
+    width: 95%;
+  }
+
+  .Team-content-tagline {
+    width: 10%;
+  }
+
+  .ourTeam {
+   width: 100%;
+   height:70vh;
+  }
+}
+
+/* Large phones and small tablets */
+@media (min-width: 600px) { 
+  .hero-about-tagline {
+    width: 40%;
+  }
+
+  .hero-about-title, .hero-about-subtitle, .about-title,
+  .company-slogans h1, .Team-content-title, .certificateContent h1  {
+    font-size: 2rem;
+  }
+
+  .hero-about-description, .missionDetails p {
+    width: 95%;
+  }
+
+  .mission { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ourTeam {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 500px;
+    
+  }
+
+  .Team-content-tagline {
+    width: 10%;
+  }
+
+  .TeamDetails {
+   width: 85%;
+   height: 50vh;
+  }
+
+  .Team-content-description {
+    width: 95%;
+  }
+
+  .TeamDetails img {
+   min-width: 50%;
+   min-height: 40%;
+   border-radius: 10px;
+   border: 1px solid rgb(194, 184, 184);
+   margin-bottom: 0;
+  }
+
+  .certificate-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Tablets portrait */
+@media (min-width: 768px) {
+  
+}
+
+/* Tablets landscape and small laptops */
+@media (min-width: 992px) {
+ .hero-about-tagline {
+    width: 25%;
+  }
+
+  .Team-content-tagline {
+    width: 5%;
+  }
+
+  .hero-about-title, .hero-about-subtitle, .about-title,
+  .company-slogans h1, .Team-content-title, .certificateContent h1  {
+    font-size: 3rem;
+  }
+
+  .hero-about-description, .missionDetails p, .Team-content-description {
+    width: 95%;
+    font-size: 0.937rem;
+  }
+
+  .missionDetails {
+    width: 70%;
+    padding: 20px;
+  }
+
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-our-company {
+   padding-top: 10rem;
+  }
+
+  .about-company-card {
+   width: 40%;
+   height: 60%;
+  }
+
+  .about-company-title {
+    font-size: 3.5rem;
+  }
+
+  .about-company-text {
+    letter-spacing: 0.1rem;
+  }
+
+  .TeamDetails {
+   width: 65%;
+   height: 50vh;
+  }  
+
+  .ourTeam {
+    max-width: 900px;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+  .ourTeam {
+   margin-left: 8rem;
+  }
+}
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  .ourTeam {
+    margin-left: 10rem;
+  }
+
+  
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+  .ourTeam {
+    margin-left: 20px;
+  }
+}
+

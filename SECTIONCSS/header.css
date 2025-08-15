@@ -1,0 +1,295 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Top bar*/
+@keyframes TopBarRight {
+  from {transform: translateX(-100%);}
+  to {transform: translateX(23%);}
+}
+
+@keyframes TopBarLeft {
+  from {transform: translateX(100%);}
+  to {transform: translateX(-23%);}
+}
+
+.Top-bar {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Top-bar-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: hsl(23.95deg 95% 52.94%);
+  color: white;
+  z-index: 100spx;
+
+  width: 100%;
+}
+
+.Top-bar-info span {
+  margin-left: 0.2rem;
+}
+
+.contact-info {
+  font-size: 0.55rem;
+  padding-left: 1rem;
+  transform: translateX(-100%);
+  
+  animation-name: TopBarRight;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+.tagline {
+  display: none;
+
+  animation-name: TopBarLeft;
+  animation-duration: 5s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+
+}
+
+
+/*Logo + navigation bar*/
+.Top-navigation-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+
+  height: 100%;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+ 
+}
+
+.L-logo button {
+  border: 10px solid hsl(23.95deg 95% 52.94%);
+  border-radius: 8px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1px 8px 1px 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  color: hsl(23.95deg 95% 52.94%);
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.laki-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-info p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo-name {
+ font-size: 0.8rem;
+ font-weight: 500;
+}
+
+.logo-name-2 {
+  font-size: 0.6rem;
+  color: rgb(197, 190, 190); 
+}
+
+.Toggle-menu {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.navigation-bar {
+  display: none;
+}
+
+.navigation-bar a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  
+}
+
+
+.navigation-bar a:hover {
+  background-color: hsl(23.95deg 95% 52.94%);
+  color: white;
+  font-weight: 900;
+}
+
+.Toggle-SideBar-nav {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: white;
+  width: 100%;
+  height: 50%;
+ 
+  transition: transform 1s ease-in-out;
+  transform: translateY(-200%);
+  justify-content: center;
+  align-items: center;  
+  gap: 0.5rem;
+}
+
+.Toggle-SideBar-nav a {
+ text-decoration: none;
+ color: black;
+ font-size: 1rem;
+ margin-left: 1rem;
+ padding: 5px 10px 5px 10px;
+ font-weight: 700;
+}
+
+.Toggle-SideBar-nav a:hover {
+  background-color: hsl(23.95deg 95% 52.94%);
+  color: white;
+  font-weight: 800;
+}
+
+.Toggle-SideBar-nav a:nth-child(7) {
+  background-color: hsl(23.95deg 95% 52.94%);
+  padding: 10px 150px 10px 150px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 5px rgb(236, 236, 236);
+}
+
+.close-button {
+  width: 3rem;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  
+  position: fixed;
+  top: 0;
+  right: 1rem;
+}
+ 
+
+/*Responsive Design*/
+@media (min-width: 480px) { 
+.logo-name {
+  font-size: 1rem;
+ }
+
+ .contact-info {
+  font-size: 0.8rem;
+ }
+}
+
+/* Large phones and small tablets */
+@media (min-width: 600px) { 
+   
+}
+
+/* Tablets portrait */
+@media (min-width: 768px) {
+  .Toggle-menu {
+      display: none;
+  }
+
+  .navigation-bar {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 0.1rem;
+      margin-right: 0.5rem;
+      margin-left: 2rem;
+  }
+
+  .logo-name {
+      font-size: 1.4rem;
+      font-weight: 500;
+  }
+  
+ }
+
+/* Tablets landscape and small laptops */
+@media (min-width: 992px) {
+  .navigation-bar {
+    column-gap: 2rem;
+  }
+
+  .tagline {
+    display: block;
+    margin-right: 2rem;
+    font-size: 0.8rem;
+    transform: translateX(100%);
+    letter-spacing: 0.1rem;
+  }
+
+ }
+
+/* Desktops */
+@media (min-width: 1200px) {
+    
+ }
+
+/* Large desktops */
+@media (min-width: 1440px) {
+  .logo-name {
+      font-size: 2rem;
+      font-weight: 500;
+  }
+
+  .logo-name-2 {
+      font-size: 1rem;
+      color: rgb(197, 190, 190); 
+  }
+
+  .navigation-bar {
+    justify-content: start;
+    margin-right: 2rem;
+    
+  }
+
+  .navigation-bar a {
+    font-size: 1.3rem;
+  }
+
+  
+ }
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+   
+ }
