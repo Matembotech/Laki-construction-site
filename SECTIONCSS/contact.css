@@ -126,6 +126,10 @@ textarea {
     width: 85%;
 }
 
+textarea:focus {
+    outline: none;
+}
+
 .contact-form button {
     margin-left: 1.4rem;
     width: 90%;
@@ -139,37 +143,8 @@ textarea {
     box-shadow: 1px 1px 2px 2px hsl(24, 100%, 68%);
 }
 
-.googleMap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border: 1px solid rgb(209, 200, 200);
-    width: 100%;
-    padding-bottom: 2rem;
-     background-color:  #F0F2F4;
-     border-radius: 1rem;
-}
-
-.googleMap i {
-    margin-top: 1rem;
-    color: hsl(23.95deg 95% 52.94%);
-    margin-bottom: 0;
-
-   
-}
-
-.googleMap h1 {
-    font-size: 1.3rem;
-    margin-top: 1rem;
-   margin-bottom: 1rem;
-}
-
-.googleMap p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 0.937rem;
-    color: rgb(161, 150, 150);
+.googleMap iframe {
+  width: 100%;
 }
 
 .direction-btn {
@@ -191,7 +166,9 @@ textarea {
 
 /*Responsive Design*/
 @media (min-width: 480px) {
-    
+    .googleMap iframe {
+     width: 100vw;
+    }
 }
 
 /* Large phones and small tablets */
@@ -210,6 +187,10 @@ textarea {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+    .googleMap iframe {
+     width: 35vw;
+    }
 }
 
 /* Tablets landscape and small laptops */
@@ -217,6 +198,10 @@ textarea {
     .company-contact {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .googleMap iframe {
+     width: 50vw;
     }
 
     
