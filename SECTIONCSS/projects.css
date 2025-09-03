@@ -13,6 +13,7 @@
 
 .projectsection-card {
     width: 98%;
+    height: 90%;
     border: 1px solid rgb(219, 211, 211);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.18);   
     padding-bottom: 2rem;
