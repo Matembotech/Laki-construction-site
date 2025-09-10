@@ -1,7 +1,7 @@
 const projects = [
  {
     image: 'IMG-20250729-WA0011',
-    projectName: 'Mentainance Of Rehabilitation Of Government Buildings',
+    projectName: 'Maintainance Of Rehabilitation Of Government Buildings',
     projectLocation: 'Arusha',
     completedYear: '2025',
     projectDescription: 'Maintenance and rehabilitation of government buildings, ensuring proper repairs, renovations, and long-term preservation of public infrastructure.',
@@ -41,7 +41,7 @@ const projects = [
     projectLocation: 'Arusha at AICC Complex',
     completedYear: '2025',
     projectDescription: 'The Arusha International Conference Centre (AICC) is a leading conference venue in East Africa, located in Arusha, Tanzania. It hosts international, regional, and national meetings, summits, exhibitions, and events, providing modern facilities and professional services.',
-    clientName: 'ARUSHA international conference centre'
+    clientName: 'ARUSHA International Conference Centre'
  },
 
  {
@@ -50,7 +50,7 @@ const projects = [
     projectLocation: 'Arusha',
     completedYear: '2025',
     projectDescription: 'Successfully completed the Uzikwasa (Uzima Kwa Sanaa) project, a community-based initiative that uses art and creativity to promote awareness, education, and positive social change.',
-    clientName: 'matembo'
+    clientName: 'UZIKWASA'
  },
 
  {

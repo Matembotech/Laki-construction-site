@@ -109,7 +109,7 @@
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(181, 173, 173);
-    width: 85%;
+    width: 80%;
 }
 
 .contact-form input:focus {
@@ -123,7 +123,7 @@ textarea {
     height: 40vh;
     border-radius: 10px;
     border: 1px solid rgb(181, 173, 173);
-    width: 85%;
+    width: 80%;
 }
 
 textarea:focus {
@@ -132,7 +132,7 @@ textarea:focus {
 
 .contact-form button {
     margin-left: 1.4rem;
-    width: 90%;
+    width: 85%;
     padding: 10px 20px 10px 20px;
 
     background-color: hsl(23.95deg 95% 52.94%);

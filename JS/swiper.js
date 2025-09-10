@@ -136,7 +136,7 @@ const swiper4 = new Swiper('.services-project', {
 });
 
 
-const swiper5 = new Swiper('.chooselaki2', {
+/*const swiper5 = new Swiper('.chooselaki2', {
     direction: 'horizontal',
     loop: true,
     autoplay: {
@@ -167,11 +167,4 @@ const swiper5 = new Swiper('.chooselaki2', {
       },
     },
 });
-
-
-
-
-
-
-
-
+*/
